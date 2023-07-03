@@ -1,0 +1,20 @@
+{
+  "name": "wirecloud",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r     <a href=\"http://conwet.fi.upm.es/wirecloud\">\r         <img width=\"256\" src=\"src/wirecloud/defaulttheme/static/images/logos/wc1.png\">\r     </a>\r </p>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "ngsi-proxy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "fiware-orion-client": "^0.5.9",
+    "ol": "^7.4.0",
+    "request": "^2.88.2"
+  }
+}
